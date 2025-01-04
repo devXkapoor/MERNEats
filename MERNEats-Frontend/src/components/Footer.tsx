@@ -2,11 +2,11 @@
 const Footer = () => {
     return (
         <>
-            <div className=" bg-orange-500 text-white flex justify-around h-48">
-                <div className="text-4xl font-bold my-auto">
+            <div className=" bg-orange-500 text-white h-auto p-2">
+                <div className="text-2xl font-bold mb-6">
                     MERNEats.com
                 </div>
-                <div className=" text-xl font-bold flex gap-4 my-auto">
+                <div className=" text-lg font-bold flex gap-4 my-auto">
                     <div>
                         Privacy Policy
                     </div>

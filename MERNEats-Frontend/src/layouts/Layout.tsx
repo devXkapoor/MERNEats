@@ -9,12 +9,14 @@ interface Props {
 const Layout = ({ children, showHero = false }: Props) => {
     return (
         <>
-            <div>
+            <div className="w-full max-w-[1920px] justify-self-center">
                 <Header />
                 {
                     showHero && <HeroImage />
                 }
+                <div className="w-full">
                 {children}
+                </div>
                 <Footer />
             </div>
         </>

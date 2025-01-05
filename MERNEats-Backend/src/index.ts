@@ -12,6 +12,6 @@ app.get("/", (req: Request, res: Response) => {
   res.send("GET Working!");
 });
 
-app.listen(3000, () => {
+app.listen(3000, '0.0.0.0', () => {
   console.log("App listening on PORT 3000!");
 });

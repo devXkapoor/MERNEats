@@ -12,11 +12,7 @@ const Header = () => {
   return (
     <nav className="bg-white shadow-md">
       <div className="container mx-auto flex justify-between items-center p-4">
-<<<<<<< HEAD
         <a href="/" className="text-orange-500 text-2xl font-bold">MERNEats.com</a>
-=======
-        <a href="#home" className="text-orange-500 text-2xl font-bold">MERNEats.com</a>
->>>>>>> 9e095cfc6036f48383d41438173fd9c4ae4bef39
 
         <button
           onClick={() => setIsOpen(!isOpen)}

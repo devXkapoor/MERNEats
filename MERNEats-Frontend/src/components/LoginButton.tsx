@@ -8,7 +8,7 @@ const LoginButton = () => {
         <>
             <button onClick={() => {
                 loginWithRedirect();
-            }} className="bg-orange-500 p-2 rounded-lg text-white">Login</button>
+            }} className="bg-orange-500 font-bold text-md w-full p-2 rounded-lg text-white">Login</button>
         </>
     )
 }

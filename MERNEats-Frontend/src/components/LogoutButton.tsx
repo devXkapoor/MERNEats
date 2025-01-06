@@ -1,6 +1,6 @@
 import { useAuth0 } from "@auth0/auth0-react"
 
-const LogoutButton = () => {
+const LogoutButton = ({color="black"}) => {
     const { logout } = useAuth0();
 
     return (
@@ -11,9 +11,10 @@ const LogoutButton = () => {
                     returnTo: window.location.origin
                 }
             })
-            } className="bg-orange-500 p-2 rounded-lg text-white">
+            } className={`bg-${color} font-bold text-md w-full p-2 mx-auto rounded-lg text-white`}>
                 Logout
             </button >
+
         </>
     )
 }
